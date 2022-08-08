@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" type="image/x-icon" href="homepage_images\icon.png">
+    <title>Contato - Si Bolos e Doces</title>
+  </head>
+  <body>
+    <header>
+      <div class="cabeca">
+       <h1>
+        <a href="homepage.html"></a>
+        <img src="homepage_images\icon.png" id="icon">
+      </h1>
+        <nav>
+          <ul>
+            <li><a href="cardapio_sibolos.html">Cardapio</a></li>
+            <li><a href="galeria_sibolos.html">Galeria</a></li>
+            <li><a href="homepage.html">Inicio</a></li>
+          </ul>        
+        </nav>  
+      </div>
+    </header>
+  
+    <main>
+      <form>
+        <fieldset>
+          <label for="nome">Insira seu Nome</label>
+          <input type="text" id="nome" class="padrao" required placeholder="Digite seu Nome para facilitar contato">
+          <br>
+          <label for="email">Insira seu Email</label>
+          <input type="email" id="email" class="padrao" required placeholder="email@dominio.com">
+          <br>
+          <label for="telefone">Insira seu Telefone</label>
+          <input type="tel" id="telefone" class="padrao" required placeholder="(XX) XXXXXX-XXXX"> 
+          <br>
+          <label for="mensagem">Digite sua mensagem</label>
+          <textarea id="mensagem" cols="70" rows="10" required placeholder="Digite sua mensagem aqui"></textarea>
+        </fieldset>
+        
+        <fieldset>
+          <br>
+          <legend>Como Deseja nos contatar?</legend>
+          <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contatos">Email</label>
+          <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contatos">Telefone</label>
+          <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contatos" checked>Whatsapp</label>  
+          <br>
+
+          <br>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Qual o horario de atendimento?</legend>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </fieldset>
+          
+        <fieldset>
+          <label class="checkbox"><input type="checkbox"id="novidades">Deseja receber novidades por Email?</label>
+          <input type="submit" value="Enviar Formulario" class="enviar"> 
+        </fieldset>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h as 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h as 20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>8h as 20h</td>
+          </tr>
+        </tbody> 
+      </table>        
+    </main>
+
+    <footer>
+      <img src="homepage_images\sibolo.png" alt="Si bolos" class="Imagem_foot">
+      <p class="copyright">&copy; Copyright Si Bolos e Doces - 2022</p>
+    </footer>
+  </body>
+</html>

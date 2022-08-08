@@ -1,0 +1,140 @@
+html {
+  background-color: rgb(54, 57, 63)
+}
+
+#banner {
+  width: 100%;
+}
+
+strong {
+  color: goldenrod;
+}
+
+.sobremim{
+
+  background-color: rgb(54, 92, 164);
+  width: 400px;
+  margin-left: 450px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+
+}
+
+.curiosidade{
+
+  background-color: rgb(54, 92, 164);
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.objetivos{
+
+  background-color: rgb(54, 92, 164);
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 400px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.frase{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.estudos{
+
+  background-color: rgb(54, 92, 164);
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 310px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.projetos{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.frontend{
+  display: inline-block;
+  background-color: rgb(54, 92, 164);
+  width: 130px;
+  margin-top: 50px;
+  margin-left: 570px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.backend{
+  display:inline-block;
+  background-color: rgb(54, 92, 164);
+  width: 130px;
+  margin-top: 50px;
+  margin-left: 570px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.extra{
+  display: inline-block;
+  background-color: rgb(54, 92, 164);
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 539px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.redes_sociais{
+  background-color: rgb(54, 92, 164);
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 90px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.contato{
+  display: inline-block;
+  background-color: rgb(54, 92, 164);
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 90px;
+  border: 2px solid goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
